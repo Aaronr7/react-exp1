@@ -30,7 +30,7 @@
 
 
 // import logo from './logo.svg';
-import './App.css';
+import './App-prefixed.css';
 import { derivative } from 'mathjs'
 
 // const cellphone = {
@@ -191,6 +191,16 @@ function App() {
       </div>
 
       <footer>
+        <p>
+           <a
+             className="App-link"
+             href="https://reactjs.org"
+             target="_blank"
+             rel="noopener noreferrer"
+           >
+             Learn React
+           </a>
+        </p>
         <p><small>codigo facilito course as reference</small></p>
       </footer>
     </div>
